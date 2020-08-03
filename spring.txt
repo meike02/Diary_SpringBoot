@@ -1,0 +1,17 @@
+2020-07-16 === [main] === WARN  === o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer ==== 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Program%20Files/Java/jdk1.8.0_131/jre/lib/ext/json.jar!/org/json/JSONObject.class
+	jar:file:/F:/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-07-16 === [main] === INFO  === com.bimstart.demo.DemoApplicationTests ==== Starting DemoApplicationTests on LAPTOP-MTU7T33T with PID 25016 (started by Lenovo in E:\java_project\bimstart)
+2020-07-16 === [main] === INFO  === com.bimstart.demo.DemoApplicationTests ==== No active profile set, falling back to default profiles: default
+2020-07-16 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 === [main] === INFO  === com.bimstart.demo.DemoApplicationTests ==== Started DemoApplicationTests in 4.726 seconds (JVM running for 6.618)
+2020-07-16 === [main] === INFO  === com.bimstart.demo.DemoApplicationTests ==== 这是info日志...
+2020-07-16 === [main] === WARN  === com.bimstart.demo.DemoApplicationTests ==== 这是warn日志...
+2020-07-16 === [main] === ERROR === com.bimstart.demo.DemoApplicationTests ==== 这是error日志...
+2020-07-16 === [SpringContextShutdownHook] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
